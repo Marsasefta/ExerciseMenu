@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/back2">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/menu2"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:layout_width="92dp"
+            android:layout_height="90dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="424dp"
+            android:background="@drawable/im1"
+            android:text="@string/ling"/>
+
+        <Button
+
+            android:layout_width="172dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="173dp"
+            android:layout_marginBottom="431dp"
+            android:background="@drawable/im2"
+            android:text="@string/tr"/>
+
+        <Button
+
+            android:layout_width="77dp"
+            android:layout_height="105dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="276dp"
+            android:background="@drawable/im3"
+            android:text="@string/sg"/>
+
+        <Button
+
+            android:layout_width="192dp"
+            android:layout_height="82dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="171dp"
+            android:layout_marginBottom="292dp"
+            android:background="@drawable/im4"
+            android:text="@string/pp"/>
+
+        <Button
+
+            android:layout_width="120dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="131dp"
+            android:layout_marginBottom="188dp"
+            android:background="@drawable/im5"
+            android:text="@string/psg"/>
+
+        <Button
+            android:id="@+id/btnpwr"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:onClick="PindahLogin"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/pwr"
+            tools:ignore="OnClick"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
